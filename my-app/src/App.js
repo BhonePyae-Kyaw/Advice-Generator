@@ -1,5 +1,6 @@
 import './App.css';
 import {useState, useEffect} from 'react'
+import AdviceCard from './AdviceCard';
 
 function App() {
   const [result, setResult] = useState();
@@ -28,13 +29,7 @@ function App() {
 
   return (
     <div className="App">
-        {result && 
-        <div>
-          <h1>Advice # {result.slip.id}</h1>
-          <h2>{result.slip.advice}</h2>
-        </div>
-        }
-        <button onClick={nextAdvice}>Next Advice</button>
+        <AdviceCard result={result} nextAdvice={nextAdvice} />
 
     </div>
   );
