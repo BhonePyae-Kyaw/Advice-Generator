@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/BhonePyae-Kyaw/Advice-Generator.git
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: ( https://bhonepyae-kyaw.github.io/Advice-Generator/)
 
 ## My process
 
@@ -55,6 +55,7 @@ I learned more about git(commit, add, push, fetch, pull) and deployment using gi
 - CSS property
 - Responsive design
 - React js
+- My api calling should be smoother. 
 
 
 ## Author
