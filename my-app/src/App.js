@@ -14,7 +14,6 @@ function App() {
       .then(res => res.json())
       .then(
         (resultData) => {
-          console.log(resultData)
           setResult(resultData);
         },
         (error) => {
