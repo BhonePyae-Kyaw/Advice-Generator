@@ -10,11 +10,12 @@ function App() {
   },[]);
 
   const getData = () => {
-    fetch("https://api.adviceslip.com/advice")
+     fetch("https://api.adviceslip.com/advice")
       .then(res => res.json())
       .then(
         (resultData) => {
           setResult(resultData);
+          console.log(resultData)
         },
         (error) => {
           console.log(error);
@@ -29,7 +30,6 @@ function App() {
   return (
     <div className="App">
         <AdviceCard result={result} nextAdvice={nextAdvice} />
-
     </div>
   );
 }
